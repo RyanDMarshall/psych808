@@ -1,0 +1,5 @@
+m=arg[1]
+
+git add --all > gitstatus.txt
+git commit -m $m >> gitstatus.txt
+git push -u origin master >> gitstatus.txt
